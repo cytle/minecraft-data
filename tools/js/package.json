@@ -11,6 +11,6 @@
     "ajv": "^3.8.2",
     "mocha": "~2.2.1",
     "protodef-validator": "^1.2.0",
-    "standard": "^11.0.1"
+    "standard": "^13.0.0"
   }
 }
