@@ -5,12 +5,16 @@
   "scripts": {
     "test": "mocha --reporter spec",
     "lint": "standard",
-    "pretest": "npm run lint"
+    "pretest": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "ajv": "^3.8.2",
     "mocha": "~2.2.1",
     "protodef-validator": "^1.2.0",
-    "standard": "^11.0.1"
-  }
+    "standard": "^11.0.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
